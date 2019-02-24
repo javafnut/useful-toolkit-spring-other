@@ -33,16 +33,16 @@ public class Address {
 	private String city;
 	private String state;
 	private String zip;
-	private String country;	
+	private String country;
 	private AddressType addressType;
 
 	protected Address() {
 	};
-	
-	public Address(String line1, String line2,String line3,
-		       String city, String state, String zip,
-		       String country,AddressType addressType) {
-	
+
+	public Address(String line1, String line2, String line3,
+                   String city, String state, String zip,
+                   String country, AddressType addressType) {
+
 	//this.students.add(student);
 	this.line1 = line1;
 	this.line2 = line2;
@@ -70,7 +70,7 @@ public class Address {
 	public void setLine2(String line2) {
 		this.line2 = line2;
 	}
-	
+
 	public String getLine3() {
 		return line3;
 	}
@@ -90,8 +90,8 @@ public class Address {
 	public Long getId() {
 		return id;
 	}
-	
-// @Todo - clean up	
+
+// @Todo - clean up
 
 //	public Student getStudent() {
 //		return student;
@@ -132,8 +132,8 @@ public class Address {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	
-	
+
+
 	public boolean isDeleted() {
 		return isDeleted;
 	}

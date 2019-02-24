@@ -1,9 +1,9 @@
 package com.ibexsys.toolkit.jpa.hibernate.repository;
 
-import com.ibexsys.toolkit.jpa.hibernate.entity.Course;
-import com.ibexsys.toolkit.jpa.hibernate.entity.Employee;
-import com.ibexsys.toolkit.jpa.hibernate.entity.FullTimeEmployee;
-import com.ibexsys.toolkit.jpa.hibernate.entity.PartTimeEmployee;
+import com.ibexsys.toolkit.jpa.entity.Course;
+import com.ibexsys.toolkit.jpa.entity.Employee;
+import com.ibexsys.toolkit.jpa.entity.FullTimeEmployee;
+import com.ibexsys.toolkit.jpa.entity.PartTimeEmployee;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;

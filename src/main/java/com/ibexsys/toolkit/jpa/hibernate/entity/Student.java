@@ -48,18 +48,18 @@ public class Student {
 	// Owner of one-to-one
 	@OneToOne(fetch = FetchType.LAZY)
 	private Passport passport;
-	
+
 	private boolean isDeleted;
 
 	protected Student() {
 	};
-	
+
 	public String getName() {
 		return name;
 	}
 
-	public Student(String name, List<Address> addresss, List<Course> courses, 
-			       Passport passport, boolean isDeleted) {
+	public Student(String name, List<Address> addresss, List<Course> courses,
+                   Passport passport, boolean isDeleted) {
 		super();
 		this.name = name;
 		this.addresss = addresss;

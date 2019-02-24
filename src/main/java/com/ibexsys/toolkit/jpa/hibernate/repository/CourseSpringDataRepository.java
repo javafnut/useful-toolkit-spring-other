@@ -1,6 +1,6 @@
 package com.ibexsys.toolkit.jpa.hibernate.repository;
 
-import com.ibexsys.toolkit.jpa.hibernate.entity.Course;
+import com.ibexsys.toolkit.jpa.entity.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;

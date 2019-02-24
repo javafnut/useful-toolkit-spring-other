@@ -1,6 +1,6 @@
 package com.ibexsys.toolkit.jpa.hibernate.repository;
 
-import com.ibexsys.toolkit.jpa.hibernate.entity.Student;
+import com.ibexsys.toolkit.jpa.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentSpringDataRepository extends JpaRepository<Student, Long> {
