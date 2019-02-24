@@ -1,0 +1,39 @@
+package com.ibexsys.toolkit.jpa.hibernate.repository;
+
+import com.ibexsys.toolkit.jpa.hibernate.entity.Course;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+
+import java.util.List;
+
+@RepositoryRestResource(path = "courses")
+public interface CourseSpringDataRepository extends JpaRepository<Course, Long> {
+
+	// Create some custom using introspection
+
+	List<Course> findByName(String name);
+	
+	List<Course> findByNameAndId(String name, Long id);
+
+	List<Course> countByName(String name);
+
+	List<Course> findByNameOrderByIdDesc(String name);
+
+	List<Course> deleteByName(String name);
+
+//  Custom Query examples
+	@Query("Select c from Course c where is_deleted = 1")
+	List<Course> coursesThatAreDeleted();
+	
+	@Query("Select c from Course c where is_deleted = 0")
+	List<Course> coursesThatAreNotDeleted();
+	
+//
+//	@Query(value = "Select * from Course C where name like '%100 Steps'", nativeQuery = true)
+//	List<Course> courseWith100StepsInNameNative();
+//
+//	@Query(name = "find_course_by_name")
+//	List<Course> courseWith100StepsInNameNamedQuery();
+
+}
