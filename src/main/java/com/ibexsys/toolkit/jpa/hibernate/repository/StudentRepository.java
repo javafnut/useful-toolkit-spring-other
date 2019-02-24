@@ -1,9 +1,9 @@
 package com.ibexsys.toolkit.jpa.hibernate.repository;
 
-import com.ibexsys.toolkit.jpa.entity.Course;
-import com.ibexsys.toolkit.jpa.entity.Passport;
-import com.ibexsys.toolkit.jpa.entity.Review;
-import com.ibexsys.toolkit.jpa.entity.Student;
+import com.ibexsys.toolkit.jpa.hibernate.entity.Course;
+import com.ibexsys.toolkit.jpa.hibernate.entity.Passport;
+import com.ibexsys.toolkit.jpa.hibernate.entity.Review;
+import com.ibexsys.toolkit.jpa.hibernate.entity.Student;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
