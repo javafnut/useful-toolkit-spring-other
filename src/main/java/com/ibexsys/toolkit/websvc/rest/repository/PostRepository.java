@@ -1,4 +1,4 @@
-package com.ibexsys.websvc.rest.toolkit.repository;
+package com.ibexsys.toolkit.websvc.rest.repository;
 
 
 import com.ibexsys.toolkit.websvc.rest.entity.post.Post;
@@ -6,7 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.jpa.repository.Query;
 
-;
+
 import java.util.List;
 import java.util.Optional;
 

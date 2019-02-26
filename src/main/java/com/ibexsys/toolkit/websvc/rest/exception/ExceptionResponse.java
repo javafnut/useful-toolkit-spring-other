@@ -1,4 +1,4 @@
-package com.ibexsys.websvc.rest.toolkit.exception;
+package com.ibexsys.toolkit.websvc.rest.exception;
 
 import java.util.Date;
 

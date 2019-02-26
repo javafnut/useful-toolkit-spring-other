@@ -1,4 +1,4 @@
-package com.ibexsys.websvc.rest.toolkit.entity.user;
+package com.ibexsys.toolkit.websvc.rest.entity.user;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

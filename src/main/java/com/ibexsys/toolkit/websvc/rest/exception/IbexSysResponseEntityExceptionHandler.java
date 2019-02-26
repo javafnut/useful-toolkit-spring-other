@@ -1,4 +1,4 @@
-package com.ibexsys.websvc.rest.toolkit.exception;
+package com.ibexsys.toolkit.websvc.rest.exception;
 
 
 import java.util.Date;
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.ibexsys.websvc.rest.toolkit.entity.user.UserNotFoundException;
+import com.ibexsys.toolkit.websvc.rest.entity.user.UserNotFoundException;
 
 @ControllerAdvice
 @RestController
