@@ -1,4 +1,4 @@
-package com.ibexsys.websvc.rest.toolkit;
+package com.ibexsys.toolkit.websvc.rest;
 
 
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.ibexsys.websvc.rest.toolkit.helloworld;
+package com.ibexsys.toolkit.websvc.rest.helloworld;
 
 
 import java.util.Locale;
